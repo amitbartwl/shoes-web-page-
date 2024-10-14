@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header img {
+            width: 50px;
+            margin-right: 20px;
+        }
+
+        /* Main area styling */
+        main {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            background-color: #f0f0f0;
+            min-height: 80vh;
+        }
+
+        .card {
+            width: 250px;
+            background-color: white;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer img {
+            width: 30px;
+            margin: 0 10px;
+        }
+
+        footer p {
+            margin: 10px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="https://codeyogi.io/nike.png" alt="Nike Logo">
+        <h1>Welcome to Nike Store</h1>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <div class="card">
+            <img src="https://codeyogi.io/nike_1.jpg" alt="Nike Shoe 1">
+            <h2>Nike Shoe 1</h2>
+        </div>
+        <div class="card">
+            <img src="https://codeyogi.io/nike_2.jpeg" alt="Nike Shoe 2">
+            <h2>Nike Shoe 2</h2>
+        </div>
+        <div class="card">
+            <img src="https://codeyogi.io/nike_3.jpg" alt="Nike Shoe 3">
+            <h2>Nike Shoe 3</h2>
+        </div>
+        <div class="card">
+            <img src="https://codeyogi.io/nike_4.jpg" alt="Nike Shoe 4">
+            <h2>Nike Shoe 4</h2>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div>
+            <a href="#"><img src="https://codeyogi.io/youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="https://codeyogi.io/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="https://codeyogi.io/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="https://codeyogi.io/facebook.png" alt="Facebook"></a>
+        </div>
+        <p>&copy; 2024 Nike Store. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
